@@ -83,7 +83,7 @@ test.describe('Hudl / login', () => {
     );
   });
 
-  test('Forgot Password navigates to reset flow', async ({
+  test('Forgot Password Navigates to Reset Flow', async ({
     page,
     hudlLoginPage,
   }) => {
