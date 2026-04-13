@@ -1,0 +1,14 @@
+[
+  {
+    "name": "valid credentials redirect to inventory",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "outcome": "success"
+  },
+  {
+    "name": "invalid credentials show error on login page",
+    "username": "invalid_user",
+    "password": "invalid_password",
+    "outcome": "failure"
+  }
+]

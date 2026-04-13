@@ -1,0 +1,15 @@
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/user.json
+# Hudl login secrets (keep `hudl-login.json.example` in Git)
+playwright/.secrets/hudl-login.json
